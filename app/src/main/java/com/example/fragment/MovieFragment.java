@@ -16,7 +16,7 @@ public class MovieFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View  view=inflater.inflate(R.layout.movie_fragment,container,false);          //关联布局文件
+        View  view=inflater.inflate(R.layout.products_fragment,container,false);          //关联布局文件
 
         return view;
     }
