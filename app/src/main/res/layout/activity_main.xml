@@ -9,6 +9,9 @@
     android:background="@color/colorBackground3"
     tools:context=".MainActivity">
 
+<!--        android:layout_weight="9.2">-->
+<!--    <TextView-->
+<!--        android:layout_height="wrap_content"-->
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
