@@ -2,7 +2,6 @@ package com.example.galaxy;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +19,6 @@ import com.example.fragment.UserFragment;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.annotation.NonNull;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,12 +35,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
         initFragment();
         initClick();
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
+        setContentView(R.layout.activity_main);
 
     }
 
