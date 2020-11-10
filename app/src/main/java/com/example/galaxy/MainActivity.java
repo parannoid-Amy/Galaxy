@@ -21,6 +21,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.annotation.NonNull;
 
+import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     private ViewPager2 vp;
@@ -33,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
     public static ImageView useriv;
     public static TextView usertv;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         initFragment();
         initClick();
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
@@ -135,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         cinematv.setTextColor(Color.rgb(148,148,148));
         useriv.setImageResource(R.mipmap.user);
         usertv.setTextColor(Color.rgb(148,148,148));
+
     }
 
     /**
