@@ -6,11 +6,8 @@
     <color name="colorBackground3">#F0F0F0</color>
     <color name="colorBackground2">#DFF7FA</color>
     <color name="colorBackground1">#00BCD4</color>
-
-
     <color name="colorBackground4">#FCFDFD</color>
     <color name="colorText2">#54888E</color>
-
-
     <color name="colorButton">#FF9800</color>
+
 </resources>
