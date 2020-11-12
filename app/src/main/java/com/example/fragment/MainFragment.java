@@ -12,18 +12,18 @@ import androidx.fragment.app.Fragment;
 import com.example.galaxy.MainActivity;
 import com.example.galaxy.R;
 
-public class SettlementFragment extends Fragment {
+public class MainFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.settlement_fragment,container,false);          //关联布局文件
+        View view=inflater.inflate(R.layout.main_fragment,container,false);          //关联布局文件
 
         return view;
     }
     @Override
     public void onResume() {
         super.onResume();
-        MainActivity.initSettlementBtnColor();
+        MainActivity.initHomeBtnColor();
     }
 
 

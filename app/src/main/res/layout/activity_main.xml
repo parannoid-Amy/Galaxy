@@ -50,8 +50,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="2.8"
-                        android:src="@mipmap/home1" >
-                    </ImageView>
+                        android:src="@mipmap/home" />
 
                     <TextView
                         android:id="@+id/textHome"
@@ -59,7 +58,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="2.2"
                         android:gravity="center"
-                        android:text="新品"
+                        android:text="首页"
                         android:textColor="@color/colorBackground1" />
                 </LinearLayout>
 
@@ -86,7 +85,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="2.8"
-                        android:src="@mipmap/product2"
+                        android:src="@mipmap/movie"
                         />
 
                     <TextView
@@ -95,7 +94,8 @@
                         android:layout_height="0dp"
                         android:layout_weight="2.2"
                         android:gravity="center"
-                        android:text="点菜"/>
+                        android:text="电影
+"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -122,7 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="2.8"
-                        android:src="@mipmap/settlement2"/>
+                        android:src="@mipmap/cinema" />
 
                     <TextView
                         android:id="@+id/textCinema"
@@ -130,7 +130,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="2.2"
                         android:gravity="center"
-                        android:text="下单"/>
+                        android:text="影院"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -157,7 +157,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="2.8"
-                        android:src="@mipmap/user2"/>
+                        android:src="@mipmap/user"/>
 
                     <TextView
                         android:id="@+id/textUser"
