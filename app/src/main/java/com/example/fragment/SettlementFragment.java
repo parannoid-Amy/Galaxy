@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import com.example.galaxy.MainActivity;
 import com.example.galaxy.R;
 
-public class CinemaFragment extends Fragment {
+public class SettlementFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
